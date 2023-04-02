@@ -10,7 +10,7 @@ I developed an app for analyzing data related to the Golden State Warriors and n
 ## Target Pages 
 The pages that I'm scraping are as followed:
 
-1 https://www.espn.com/nba/team/schedule/_/name/[team code]/[team name]
+1. https://www.espn.com/nba/team/schedule/_/name/[team code]/[team name]
     - This page contains the team schedules for the whole season. Each game contains the "game_id" field which is required to pull data for the other two URLs.
 
 2. https://www.espn.com/nba/matchup/_/gameId/[game_id]
